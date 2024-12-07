@@ -1,0 +1,20 @@
+/* Estilos para el container de grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de tamaño igual */
+    gap: 10px; /* Espacio entre los elementos del grid */
+    padding: 20px; /* Espaciado alrededor del container */
+    background-color: #f4f4f4; /* Color de fondo del contenedor */
+  }
+  
+  /* Estilos para los elementos del grid */
+  .grid-item {
+    background-color: #4CAF50; /* Fondo verde para cada item */
+    color: white; /* Color de texto blanco */
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  
+  
